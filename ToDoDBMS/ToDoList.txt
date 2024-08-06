@@ -1,0 +1,22 @@
+create database todolist;
+
+use todolist;
+
+CREATE TABLE user (
+    id VARCHAR(5) PRIMARY KEY,
+    firstName VARCHAR(30) NOT NULL,
+    lastName VARCHAR(30) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    password VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE todo (
+    id VARCHAR(5) PRIMARY KEY,
+    userId VARCHAR(5) NOT NULL,
+    description VARCHAR(200) NOT NULL,
+    CONSTRAINT fk_user
+        FOREIGN KEY (userId) 
+        REFERENCES user(id)
+        ON DELETE CASCADE
+);
+
