@@ -8,7 +8,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="350.0" prefWidth="450.0" style="-fx-background-color: rgba(245, 246, 250,1.0);" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegisterController">
+<AnchorPane prefHeight="350.0" prefWidth="450.0" style="-fx-background-color: rgba(245, 246, 250,1.0);" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegisterController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#192a56" height="50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="450.0" />
       <Label layoutX="126.0" layoutY="2.0" text="Register Form" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">

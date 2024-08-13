@@ -11,7 +11,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="379.0" prefWidth="800.0" style="-fx-background-color: rgba(245, 246, 250,1.0);" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewController">
+<AnchorPane prefHeight="379.0" prefWidth="800.0" style="-fx-background-color: rgba(245, 246, 250,1.0);" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewController">
    <children>
       <TableView fx:id="tblToDo" layoutX="9.0" layoutY="18.0" prefHeight="350.0" prefWidth="375.0">
         <columns>
